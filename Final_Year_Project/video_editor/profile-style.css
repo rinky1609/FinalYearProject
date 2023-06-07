@@ -1,0 +1,54 @@
+html , body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------navigation bar-------------------  */
+#title{
+    color: white;
+    position: relative;
+    padding-top: 7%;
+}
+.navbar{
+    padding: 0;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: black;
+}
+.nav-item{
+    padding: 0 5px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light",sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+/* ------------profile------------------ */
+#profiles{
+    padding: 4% 8%;
+}
+.profile-row{
+    margin: 2% 0;
+}
+.profile{
+    overflow: hidden;
+}
+.profile-img{
+    width: 100%;
+    border-radius: 15px;
+     /*width: 50%;
+    height: 50%;
+    border-radius: 15px;*/
+}
+.review-star{
+    display: flex;
+    font-weight: 600;
+}
+.skills video{
+    width: 100%;
+}
